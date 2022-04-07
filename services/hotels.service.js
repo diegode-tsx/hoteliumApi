@@ -6,25 +6,7 @@ class HotelsService {
    }
 
    async find() {
-      const hotels = await Hotel.find();
-      return hotels;
-   }
 
-   async findOne(id) {
-
-   }
-
-   async findByCountry(country) {
-
-   }
-
-   async findByTag(tag) {
-
-   }
-
-   async create(data) {
-      const newHotel = await Hotel.create(data);
-      return newHotel;
    }
 }
 

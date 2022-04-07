@@ -1,9 +1,9 @@
 const express = require('express');
 
-const HotelService = require('../services/hotels.service');
+const ReservationService = require('../services/reservations.service');
 
 const router = express.Router();
-const service = new HotelService();
+const service = new ReservationService();
 
 router.get('/', async (req, res, next) => {
 
