@@ -6,7 +6,8 @@ class HotelsService {
    }
 
    async find() {
-
+      const hotels = await Hotel.find();
+      return hotels;
    }
 }
 
