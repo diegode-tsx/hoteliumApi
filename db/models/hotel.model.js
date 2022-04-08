@@ -1,8 +1,11 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
+const { Room } = require('./room.model');
 
 const hotelSchema = new Schema({
-   //Definición del esquema para la colección de hoteles
+   name: { type: String, required: true, maxlength: 35 },
+   country: { type: String, required: true, maxlength: 35 },
+   rooms: [{ type: Schema.Types.ObjectId, ref: 'Room' }]
 }, { versionKey: false });
 
 const Hotel = mongoose.model('Hotel', hotelSchema);

@@ -10,4 +10,10 @@ router.get('/', async (req, res, next) => {
    res.json(hotels);
 });
 
+router.post('/', async (req, res, next) => {
+   const body = req.body;
+   const newHotel = await service.create(body);
+   res.json(newHotel);
+})
+
 module.exports = router;

@@ -13,7 +13,7 @@ mongoose.connection.on('connected', function () {
 });
 
 mongoose.connection.on('error', function (err) {
-   console.log('Error al conextar a la base de datos: ' + err)
+   console.log('Error al conectar a la base de datos: ' + err)
 });
 
 mongoose.connection.on('disconnected', function () {
