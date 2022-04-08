@@ -14,7 +14,7 @@ const reservationSchema = new Schema({
       phone: { type: Number, required: true, maxlength: 10},
       email: { type: String, required: true, maxlength: 70 }
    },
-   room: { type: Schema.Types.ObjectId, ref: 'Room' }
+   rooms: [{ type: Schema.Types.ObjectId, ref: 'Room' }]
 }, { versionKey: false });
 
 const Reservation = mongoose.model('Reservation', reservationSchema);
