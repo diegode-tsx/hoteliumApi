@@ -8,8 +8,8 @@ const service = new HotelService();
 
 router.get('/', async (req, res, next) => {
    try {
-      const detailedRooms = req.query.detailed_rooms;
-      const hotels = await service.find(detailedRooms);
+      const detailed = req.query.detailed;
+      const hotels = await service.find(detailed);
       res.json(hotels);
    } catch (error) {
       next(error);
@@ -48,7 +48,9 @@ router.get('countries/:country', async (req, res, next) => {
 
 router.post('/', async (req, res, next) => {
    try {
-
+      const data = req.body;
+      const newHotel = await service.create(data);
+      res.json(newHotel);
    } catch (error) {
       next(error);
    }
