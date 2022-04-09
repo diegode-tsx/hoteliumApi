@@ -1,3 +1,5 @@
+const { Reservation } = require('../db/models/reservation.model');
+
 class ReservationsService {
    constructor() {
 
@@ -5,6 +7,11 @@ class ReservationsService {
 
    async find() {
 
+   }
+
+   async save(data) {
+      const reservationSave = await Reservation.save(data);
+      return reservationSave;
    }
 }
 

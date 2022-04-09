@@ -10,18 +10,10 @@ const hotelSchema = new Schema({
    country: { type: Schema.Types.ObjectId, ref: 'Country'},
    short_desc: { type: String, required: true, maxlength: 255},
    description: { type: String, required: true},
-   services: [
-      {
-         service: { type: String, required: true, maxlength: 50 }
-      }
-   ],
-   tags: [
-      {
-         tag: { type: String, required: true, maxlength: 50 }
-      }
-   ],
+   services: [ { type: String, required: true, maxlength: 50 } ],
+   tags: [ { type: String, required: true, maxlength: 50 } ],
    rooms: [{ type: Schema.Types.ObjectId, ref: 'Room' }],
-   ubication: { type: String, required: true }
+   location: { type: String, required: true }
 }, { versionKey: false });
 
 const Hotel = mongoose.model('Hotel', hotelSchema);
