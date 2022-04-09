@@ -1,0 +1,32 @@
+const { required } = require('joi');
+const Joi = require('joi');
+
+const arrival_date = Joi.date().min('now');
+const departure_date = Joi.date().greater(Joi.ref('arrival_date'));
+const num_guests = Joi.number().integer().max(10);
+const num_rooms = Joi.number().integer().max(10);
+const total_cost = Joi.number();
+const reservation_code = Joi.string().max(14);
+const rooms = Joi.array();
+
+const name = Joi.string().max(60);
+const phone = Joi.string().max(10);
+const email = Joi.string().email();
+const client = Joi.object({
+   name: name.required(),
+   phone: phone.required(),
+   email: email.required()
+});
+
+const createReservationSchema = Joi.object({
+   arrival_date: arrival_date.required(),
+   departure_date: departure_date.required(),
+   num_guests: num_guests.required(),
+   num_rooms: num_rooms.required(),
+   total_cost: total_cost.required(),
+   reservation_code: reservation_code.required(),
+   client: client.required(),
+   rooms: rooms.required()
+})
+
+module.exports = { createReservationSchema }
