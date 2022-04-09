@@ -5,13 +5,13 @@ class ReservationsService {
 
    }
 
-   async find() {
-
+   async create(data) {
+      const reservationSave = await Reservation.updateOne(data);
+      return reservationSave;
    }
 
-   async save(data) {
-      const reservationSave = await Reservation.save(data);
-      return reservationSave;
+   async update(data) {
+
    }
 }
 

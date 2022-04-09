@@ -24,7 +24,7 @@ router.get('/:id', async (req, res, next) => {
    } catch (error) {
       next(error);
    }
-})
+});
 
 router.get('/tags/:tag', async (req, res, next) => {
    try {

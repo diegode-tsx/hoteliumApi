@@ -34,7 +34,7 @@ class HotelsService {
       } else {
 
          hotels = await Hotel.find()
-            .select('name description services tag rooms location');
+            .select('name description services tag rooms location local_iso');
 
          query = [
             {

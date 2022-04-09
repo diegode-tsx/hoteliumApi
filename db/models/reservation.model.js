@@ -9,7 +9,7 @@ const reservationSchema = new Schema({
    cant_habs: { type: Number, required: true, max: 30 },
    total_cost: { type: Number, required: true, min: 1000 },
    reservation_code: { type: String, required: true, maxlength: 14 },
-   cliente: {
+   client: {
       name: { type: String, required: true, maxlength: 80 },
       phone: { type: Number, required: true, maxlength: 10},
       email: { type: String, required: true, maxlength: 70 }
