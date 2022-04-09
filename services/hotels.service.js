@@ -1,21 +1,26 @@
+const boom = require('@hapi/boom');
+
 const { Hotel } = require('../db/models/hotel.model');
-const { Reservation } = require('../db/models/reservation.model');
 
 class HotelsService {
    constructor() {
 
    }
 
-   async find() {
-      const hotels = await Reservation.find();
-      const populatedHotels = Reservation.populate(hotels, {path: "room"});
-      return populatedHotels;
+   async find(detailedRooms) {
+      //return hotels;
+   }
+
+   async findById(id) {
+      //return hotel;
+   }
+
+   async findByFilter(filter) {
       //return hotels;
    }
 
    async create(data) {
-      const newHotel = await Reservation.create(data);
-      return newHotel;
+      //return newHotel;
    }
 }
 
