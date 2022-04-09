@@ -8,8 +8,7 @@ const service = new HotelService();
 
 router.get('/', async (req, res, next) => {
    try {
-      const detailed = req.query.detailed;
-      const hotels = await service.find(detailed);
+      const hotels = await service.find();
       res.json(hotels);
    } catch (error) {
       next(error);
@@ -29,17 +28,17 @@ router.get('/:id', async (req, res, next) => {
 router.get('/tags/:tag', async (req, res, next) => {
    try {
       const tag = req.params;
-      const hotels = await service.findByFilter(tag);
+      const hotels = await service.findByTag(tag);
       res.json(hotels);
    } catch (error) {
       next(error);
    }
 });
 
-router.get('countries/:country', async (req, res, next) => {
+router.get('/countries/:name', async (req, res, next) => {
    try {
-      const country = req.params;
-      const hotels = await service.findByFilter(country);
+      const name = req.params;
+      const hotels = await service.findByCountry(name);
       res.json(hotels);
    } catch (error) {
       next(error);
