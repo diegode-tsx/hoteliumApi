@@ -181,3 +181,6 @@ $RECYCLE.BIN/
 
 # MongoDB
 mongo_data
+
+# Mac OS
+.DS_Store
