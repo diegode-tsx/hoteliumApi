@@ -7,10 +7,10 @@ const PASSWORD = encodeURI(config.dbPassword);
 const URI = `mongodb://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}/${config.dbName}?authSource=admin`;
 
 const connectDB = async () => {
-mongoose.connect(URI);
+   await mongoose.connect(URI);
 };
-
 connectDB();
+
 mongoose.connection.on('connected', function () {
    console.log('Conectado a la base de datos: ' + URI)
 });
