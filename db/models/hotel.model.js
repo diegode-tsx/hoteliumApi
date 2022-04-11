@@ -10,7 +10,7 @@ const hotelSchema = new Schema({
    country: { type: Schema.Types.ObjectId, ref: 'Country'},
    short_desc: { type: String, required: true, maxlength: 255},
    description: { type: String, required: true},
-   services: [ { type: String, required: true, maxlength: 30 } ],
+   services: [ { type: String, required: true } ],
    tag: { type: String, required: true, maxlength: 20 },
    rooms: [{ type: Schema.Types.ObjectId, ref: 'Room' }],
    location: { type: String, required: true },

@@ -87,7 +87,7 @@ class HotelsService {
    }
 
    async create(data) {
-      const newHotel = await Hotel.create(data);
+      const newHotel = await Hotel.insertMany(data);
       return newHotel;
       //return newHotel;
    }
