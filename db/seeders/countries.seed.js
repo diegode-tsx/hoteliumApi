@@ -1,5 +1,5 @@
 const countriesData = require('./data_seeders/countries.data');
-const { Country } = require('../db/models/country.model');
+const { Country } = require('../models/country.model');
 
 const importCountries = async () => {
 	try {
