@@ -11,7 +11,7 @@ const importCountries = async () => {
 		console.log('Countries Data Imported');
 		process.exit();
 	} catch (err) {
-		console.log('Imposible realizar la importacion de los datos');
+		console.log('Error importing country data');
 		process.exit(1);
 	}
 };
