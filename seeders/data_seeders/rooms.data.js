@@ -23,6 +23,14 @@ const roomsData = [
         capacity: 1,
         amount: 50
     },
+    {
+        _id: "6253baf499eaba000803A001",
+        room_type: "Duerme con el peje",
+        price: 2000,
+        description: "Ideal para una estancia corta",
+        capacity: 1,
+        amount: 50
+    },
 ];
 
 module.exports = roomsData;
