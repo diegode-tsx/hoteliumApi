@@ -1,7 +1,6 @@
-const roomsData = require('./data_seeders/Rooms.data');
-const { Room } = require('../db/models/room.model');
-//const connectDB = require('../libs/mongoose');
-//connectDB();
+const roomsData = require('./data_seeders/rooms.data');
+const { Room } = require('../models/room.model');
+
 
 const importRooms = async () => {
 	try {

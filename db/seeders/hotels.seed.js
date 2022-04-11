@@ -1,7 +1,6 @@
 const hotelsData = require('./data_seeders/hotels.data');
-const { Hotel } = require('../db/models/hotel.model');
-//const connectDB = require('../libs/mongoose');
-//connectDB();
+const { Hotel } = require('../models/hotel.model');
+
 
 const importHotels = async () => {
 	try {
