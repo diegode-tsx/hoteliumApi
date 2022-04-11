@@ -1,7 +1,7 @@
 const servicesData = require('./data_seeders/services.data');
 const { Service } = require('../db/models/service.model');
-const connectDB = require('../libs/mongoose');
-connectDB();
+//const connectDB = require('../libs/mongoose');
+//connectDB();
 
 const importServices = async () => {
 	try {

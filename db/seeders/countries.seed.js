@@ -1,7 +1,5 @@
 const countriesData = require('./data_seeders/countries.data');
 const { Country } = require('../db/models/country.model');
-//const connectDB = require('../libs/mongoose');
-//connectDB();
 
 const importCountries = async () => {
 	try {
