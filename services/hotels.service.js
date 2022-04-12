@@ -31,7 +31,6 @@ class HotelsService {
       const query = [
          {
             path: 'rooms',
-            select: 'room_type price capacity -_id',
             options: { sort: { 'price': 1 } }
          }
       ]
