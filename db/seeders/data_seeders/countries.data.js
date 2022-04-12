@@ -9,19 +9,11 @@ const countriesData = [
     },
     {
         _id: "625386cc99eaba0008031f03",
-        name: "Canada"
+        name: "Emiratos Árabes Unidos"
     },
     {
         _id: "625386cc99eaba0008031f04",
-        name: "Arabia Saudita"
-    },
-    {
-        _id: "625386cc99eaba0008031f05",
-        name: "Dinamarca"
-    },
-    {
-        _id: "625386cc99eaba0008031f06",
-        name: "Francia"
+        name: "Singapur"
     }
 ];
 

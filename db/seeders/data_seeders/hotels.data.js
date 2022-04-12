@@ -7,10 +7,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "wifi"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -41,10 +38,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -75,10 +69,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -105,14 +96,11 @@ const hotelsData = [
     name:"The Westin Resort Guam",
     rating:5,
     local_iso: "MXSVC",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -139,14 +127,11 @@ const hotelsData = [
     name:"Veraclub Sunset Beach",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -173,14 +158,11 @@ const hotelsData = [
     name:"Marina Bay",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -212,10 +194,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -242,14 +221,11 @@ const hotelsData = [
     name:"Hotel de Convenciones y Resort Sheraton Doha",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -276,14 +252,11 @@ const hotelsData = [
     name:"Althoff Seehotel Überfahrt",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -310,14 +283,11 @@ const hotelsData = [
     name:"Burj Al Arab",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -344,14 +314,11 @@ const hotelsData = [
     name:"Puente Colgante Boutique Hotel",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -368,14 +335,11 @@ const hotelsData = [
     name:"Artesana Luxury Villa",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -404,10 +368,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -436,10 +397,7 @@ const hotelsData = [
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
@@ -464,14 +422,11 @@ const hotelsData = [
     name:"Hotel Quintino",
     rating:3,
     local_iso: "MXNYD",
-    country: "625386cc99eaba0008031f01",
+    country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
     services: [
-        "Gym",
-        "Alberca",
-        "Masajitos",
-        "Playa"
+        "6253adaec27943a18f33d003"
     ],
    tag: "Riviera Maya",
     rooms:[
