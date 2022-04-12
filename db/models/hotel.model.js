@@ -5,7 +5,7 @@ const { Country } = require('./country.model');
 const { Service } = require('./service.model');
 
 const hotelSchema = new Schema({
-   name: { type: String, required: true, maxlength: 35 },
+   name: { type: String, required: true, maxlength: 60 },
    rating: { type: Number, required: true, max: 5 },
    local_iso: { type: String, required: true, maxlength: 5 },//MXSVC (pais y hotel)
    country: { type: Schema.Types.ObjectId, ref: 'Country' },
