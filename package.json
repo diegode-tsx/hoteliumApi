@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "hotels:import": "node db/seeders/hotels.seed",
+    "hotels:destroy": "node db/seeders/hotels.seed -d",
+    "all:import": "node db/seeders/index"
   },
   "keywords": [],
   "author": "",

@@ -12,7 +12,7 @@ class HotelsService {
       const query = [
          {
             path: 'rooms',
-            select: 'room_type price -_id',
+            select: 'room_type price tag -_id',
             options: { sort: { 'price': 1 } }
          }
       ]
@@ -31,8 +31,11 @@ class HotelsService {
       const query = [
          {
             path: 'rooms',
-            select: 'room_type price capacity -_id',
             options: { sort: { 'price': 1 } }
+         },
+         {
+            path: 'services',
+            select: '-_id'
          }
       ]
       const hotel = await Hotel.findById(id)
@@ -87,7 +90,7 @@ class HotelsService {
    }
 
    async create(data) {
-      const newHotel = await Hotel.create(data);
+      const newHotel = await Hotel.insertMany(data);
       return newHotel;
       //return newHotel;
    }
