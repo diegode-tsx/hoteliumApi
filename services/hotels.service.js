@@ -14,14 +14,10 @@ class HotelsService {
             path: 'rooms',
             select: 'room_type price tag -_id',
             options: { sort: { 'price': 1 } }
-         },
-         {
-            path: 'country',
-            select: '-_id'
          }
       ]
       const hotels = await Hotel.find()
-         .select('name rating short_desc country rooms')
+         .select('name rating short_desc rooms')
          .populate(query);
 
       if (hotels.length === 0) {
