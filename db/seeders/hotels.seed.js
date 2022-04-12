@@ -1,4 +1,4 @@
-const hotelsData = require('../models/data_seeders/hotels.data');
+const hotelsData = require('./data_seeders/hotels.data');
 const { Hotel } = require('../models/hotel.model');
 
 

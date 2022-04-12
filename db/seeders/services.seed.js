@@ -1,4 +1,4 @@
-const servicesData = require('../models/data_seeders/services.data');
+const servicesData = require('./data_seeders/services.data');
 const { Service } = require('../models/service.model');
 
 const importServices = async () => {
