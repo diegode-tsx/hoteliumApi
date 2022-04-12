@@ -12,7 +12,7 @@ class HotelsService {
       const query = [
          {
             path: 'rooms',
-            select: 'room_type price -_id',
+            select: 'room_type price tag -_id',
             options: { sort: { 'price': 1 } }
          }
       ]
