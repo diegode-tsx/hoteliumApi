@@ -9,7 +9,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Playa",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -40,7 +40,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Playa",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -71,7 +71,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Playa",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -102,7 +102,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Playa",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -133,7 +133,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Playa",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -164,7 +164,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Moderno",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -196,7 +196,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Moderno",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -227,7 +227,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Moderno",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -258,7 +258,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Moderno",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -289,7 +289,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Moderno",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -320,7 +320,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Coloquial",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -341,7 +341,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Coloquial",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -370,7 +370,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Coloquial",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -399,7 +399,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Coloquial",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
@@ -428,7 +428,7 @@ const hotelsData = [
     services: [
         "6253adaec27943a18f33d003"
     ],
-   tag: "Riviera Maya",
+   tag: "Coloquial",
     rooms:[
     "625368fe3eeec10007bc5068",
     "625368fe3eeec10007bc5067"
