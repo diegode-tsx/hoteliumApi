@@ -103,8 +103,12 @@ const hotelsData = [
     ],
    tag: "Playa",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5075",
+        "625368fe3eeec10007bc5076",
+        "625368fe3eeec10007bc5077",
+        "625368fe3eeec10007bc5078",
+        "625368fe3eeec10007bc5079",
+        "625368fe3eeec10007bc5080"
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.3795418375953!2d-87.03068724996072!3d20.69480688611242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5d804b150ae1%3A0x7350a60338ba493d!2sAndaz%20Mayakoba%20Riviera%20Maya!5e0!3m2!1ses!2smx!4v1649732056501!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
@@ -141,8 +145,12 @@ const hotelsData = [
     ],
    tag: "Playa",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5075",
+        "625368fe3eeec10007bc5076",
+        "625368fe3eeec10007bc5077",
+        "625368fe3eeec10007bc5078",
+        "625368fe3eeec10007bc5079",
+        "625368fe3eeec10007bc5080"
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d860906.157738447!2d144.9141311770184!3d13.377320113778524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f828aaf1178bd%3A0x36827cf51bdf63ef!2sThe%20Westin%20Resort%20Guam!5e0!3m2!1ses!2smx!4v1649732323153!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
@@ -178,8 +186,14 @@ const hotelsData = [
     ],
    tag: "Playa",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5067",
+        "625368fe3eeec10007bc5068",
+        "625368fe3eeec10007bc5069",
+        "625368fe3eeec10007bc5070",
+        "625368fe3eeec10007bc5071",
+        "625368fe3eeec10007bc5072",
+        "625368fe3eeec10007bc5073",
+        "625368fe3eeec10007bc5074",
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d860.142913387504!2d39.28980983490148!3d-5.7339418458017875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18431e4d74a0528f%3A0x6c1480e5ea5bed6!2sVeraclub%20Sunset%20Beach!5e1!3m2!1ses!2smx!4v1649734123208!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
