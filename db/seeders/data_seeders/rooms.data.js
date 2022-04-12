@@ -160,6 +160,69 @@ const roomsData = [
       capacity: 5,
       amount: 2
    }, //Hotel Marina Bay
+   {
+      _id: "625368fe3eeec10007bc5090",
+      room_type: "Indivual",
+      price: 200,
+      capacity: 1,
+      amount: 30
+   },
+   {
+      _id: "625368fe3eeec10007bc5091",
+      room_type: "Familiar",
+      price: 800,
+      capacity: 5,
+      amount: 25
+   },
+   {
+      _id: "625368fe3eeec10007bc5092",
+      room_type: "Doble",
+      price: 300,
+      capacity: 2,
+      amount: 35
+   },
+   {
+      _id: "625368fe3eeec10007bc5093",
+      room_type: "Queen",
+      price: 800,
+      capacity: 4,
+      amount: 35
+   },
+   {
+      _id: "625368fe3eeec10007bc5094",
+      room_type: "King",
+      price: 1000,
+      capacity: 4,
+      amount: 18
+   },
+   {
+      _id: "625368fe3eeec10007bc5095",
+      room_type: "Cuádruple",
+      price: 550,
+      capacity: 4,
+      amount: 15
+   },
+   {
+      _id: "625368fe3eeec10007bc5096",
+      room_type: "Suite",
+      price: 1200,
+      capacity: 4,
+      amount: 26
+   },
+   {
+      _id: "625368fe3eeec10007bc5097",
+      room_type: "Junior Suite",
+      price: 1600,
+      capacity: 5,
+      amount: 9
+   },
+   {
+      _id: "625368fe3eeec10007bc5098",
+      room_type: "Master Suite",
+      price: 2000,
+      capacity: 5,
+      amount: 16
+   },
 ];
 
 module.exports = roomsData;
