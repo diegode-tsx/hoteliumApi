@@ -317,6 +317,7 @@ const hotelsData = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, nunc quis vulputate consectetur, ante risus volutpat nibh, ut ultrices nisl felis nec est. Morbi condimentum accumsan neque, vel scelerisque tellus. Donec id erat pharetra, elementum leo at, rhoncus mi. Phasellus ante nisl, ultricies sed lacus non, sollicitudin aliquet neque. Vestibulum quis semper massa. Suspendisse et viverra velit. Duis eu nibh auctor, rutrum eros non, finibus nunc. Etiam velit erat, sollicitudin vitae tortor non, pharetra maximus risus. Pellentesque et nisl congue, convallis ex non, molestie odio. Nulla consectetur elit enim, quis tristique nisi lobortis eu. Maecenas a libero sed augue rutrum sagittis ac ut felis. Pellentesque sit amet sem sagittis, elementum lacus et, laoreet dolor. Pellentesque ut felis a ipsum vehicula hendrerit quis pretium sapien. Duis tempor turpis id diam fermentum lacinia.\nAenean porta eros dolor, ut mattis quam sagittis sit amet. Sed ac iaculis nibh. Phasellus libero eros, imperdiet id fermentum id, consequat quis odio. Donec nec diam ullamcorper, auctor ipsum eu, pharetra purus. Maecenas posuere lorem blandit, faucibus erat accumsan, consequat eros. Duis placerat dictum tortor a interdum.",
     services: [
         "6253adaec27943a18f33d001",
+        "6253adaec27943a18f33d002",
         "6253adaec27943a18f33d003",
         "6253adaec27943a18f33d004",
         "6253adaec27943a18f33d005",
