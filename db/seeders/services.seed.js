@@ -8,10 +8,10 @@ const importServices = async () => {
 
 		await Service.insertMany(servicesData);
 
-		console.log('Data Imported');
+		console.log('Services Data Imported');
 		process.exit();
 	} catch (err) {
-		console.log('Imposible realizar la importacion de los datos');
+		console.log('Error importing service data');
 		process.exit(1);
 	}
 };

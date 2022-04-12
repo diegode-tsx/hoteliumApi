@@ -13,7 +13,7 @@ const importHotels = async () => {
 		console.log('Hotels Data Imported');
 		process.exit();
 	} catch (err) {
-		console.log('Imposible realizar la importacion de los datos');
+		console.log('Error importing hotel data');
 		process.exit(1);
 	}
 };
