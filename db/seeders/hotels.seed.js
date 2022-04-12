@@ -1,4 +1,4 @@
-const hotelsData = require('./data_seeders/hotels.data');
+const hotelsData = require('../models/data_seeders/hotels.data');
 const { Hotel } = require('../models/hotel.model');
 
 
@@ -9,16 +9,14 @@ const importHotels = async () => {
 
 		await Hotel.insertMany(hotelsData);
 
-		
+
 		console.log('Hotels Data Imported');
 		process.exit();
 	} catch (err) {
-		console.log('Error importing hotel data');
+		console.log('Imposible realizar la importacion de los datos');
 		process.exit(1);
 	}
 };
-
-
 
 const deleteHotels = async () => {
 	try {

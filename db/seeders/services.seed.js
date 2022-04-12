@@ -1,4 +1,4 @@
-const servicesData = require('./data_seeders/services.data');
+const servicesData = require('../models/data_seeders/services.data');
 const { Service } = require('../models/service.model');
 
 const importServices = async () => {
@@ -8,15 +8,13 @@ const importServices = async () => {
 
 		await Service.insertMany(servicesData);
 
-		console.log('Services Data Imported');
+		console.log('Data Imported');
 		process.exit();
 	} catch (err) {
-		console.log('Error importing service data');
+		console.log('Imposible realizar la importacion de los datos');
 		process.exit(1);
 	}
 };
-
-
 
 const deleteservices = async () => {
 	try {

@@ -17,8 +17,6 @@ const importRooms = async () => {
 	}
 };
 
-
-
 const deleteRooms = async () => {
 	try {
 		await Room.deleteMany();

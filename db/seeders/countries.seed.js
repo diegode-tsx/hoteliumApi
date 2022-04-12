@@ -16,8 +16,6 @@ const importCountries = async () => {
 	}
 };
 
-
-
 const deleteCountries = async () => {
 	try {
 		await Country.deleteMany();
