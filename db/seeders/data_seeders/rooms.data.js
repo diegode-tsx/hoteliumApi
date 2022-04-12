@@ -102,7 +102,7 @@ const roomsData = [
       room_type: "Individual",
       price: 19250,
       capacity: 1,
-      amount: 10
+      amount: 30
    },
    {
       _id: "625368fe3eeec10007bc5082",
@@ -119,42 +119,42 @@ const roomsData = [
       amount: 9
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5084",
       room_type: "Queen",
       price: 72000,
       capacity: 4,
       amount: 12
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5085",
       room_type: "King",
       price: 75000,
       capacity: 4,
       amount: 5
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5086",
       room_type: "Doble Twin",
       price: 51500,
       capacity: 4,
       amount: 12
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5087",
       room_type: "Familiar",
       price: 56000,
       capacity: 5,
       amount: 15
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5088",
       room_type: "Suite",
       price: 120000,
       capacity: 4,
       amount: 7
    },
    {
-      _id: "625368fe3eeec10007bc5083",
+      _id: "625368fe3eeec10007bc5089",
       room_type: "Suite Presidencial",
       price: 250000,
       capacity: 5,

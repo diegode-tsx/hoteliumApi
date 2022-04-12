@@ -18,8 +18,14 @@ const hotelsData = [
     ],
    tag: "Playa",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5067",
+        "625368fe3eeec10007bc5068",
+        "625368fe3eeec10007bc5069",
+        "625368fe3eeec10007bc5070",
+        "625368fe3eeec10007bc5071",
+        "625368fe3eeec10007bc5072",
+        "625368fe3eeec10007bc5073",
+        "625368fe3eeec10007bc5074",
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.5521857922345!2d-86.77230374995288!3d21.090540685896052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2846441097c3%3A0x3253c2fd3539bef0!2sSecrets%20The%20Vine%20Cancun!5e0!3m2!1ses!2smx!4v1649731781669!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
@@ -54,8 +60,14 @@ const hotelsData = [
     ],
    tag: "Playa",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5067",
+        "625368fe3eeec10007bc5068",
+        "625368fe3eeec10007bc5069",
+        "625368fe3eeec10007bc5070",
+        "625368fe3eeec10007bc5071",
+        "625368fe3eeec10007bc5072",
+        "625368fe3eeec10007bc5073",
+        "625368fe3eeec10007bc5074",
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.874920339118!2d-86.75895964995236!3d21.11755228588138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b0d61aaaaab%3A0x972182d84386ea65!2sHotel%20Flamingo%20Cancun%20Resort!5e0!3m2!1ses!2smx!4v1649731979611!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
@@ -209,8 +221,15 @@ const hotelsData = [
     ],
    tag: "Moderno",
     rooms:[
-    "625368fe3eeec10007bc5068",
-    "625368fe3eeec10007bc5067"
+        "625368fe3eeec10007bc5081",
+        "625368fe3eeec10007bc5082",
+        "625368fe3eeec10007bc5083",
+        "625368fe3eeec10007bc5084",
+        "625368fe3eeec10007bc5085",
+        "625368fe3eeec10007bc5086",
+        "625368fe3eeec10007bc5087",
+        "625368fe3eeec10007bc5088",
+        "625368fe3eeec10007bc5089",
     ],
     location: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13669.961055101132!2d103.85472936100618!3d1.2924790848428376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19b922a614c5%3A0xee86c81bf5a0b783!2sMarina%20Bay!5e1!3m2!1ses!2smx!4v1649734223473!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
     images: [
