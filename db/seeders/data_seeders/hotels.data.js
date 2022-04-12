@@ -1,9 +1,9 @@
 const hotelsData = [
 {//categoria 1 comienza hotel 1 https://goo.gl/maps/tzTkiB7DWc4Vc7Bf8
-    name: "Secrets The Vine Cancun",
-    rating:2,
-    local_iso: "MXSVC",
-    country: "625386cc99eaba0008031f01",
+    name: "Secrets The Vine",
+    rating:5,
+    local_iso: "USSVC",
+    country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ex id est ultricies tristique. Pellentesque placerat risus elementum placerat vehicula. Quisque placerat ornare urna, a porttitor ipsum aliquet sit amet. Proin orci tellus, ultricies id pellentesque sit amet, tincidunt id odio. Praesent dolor mi, facilisis ut hendrerit eget, blandit quis dui. Cras viverra ullamcorper ante, quis laoreet urna viverra sed. In vel mollis est. Nullam vehicula et mauris quis lacinia.\nQuisque volutpat orci elementum massa ultrices porttitor. Mauris pulvinar fringilla nulla non iaculis. Proin neque lacus, sollicitudin et est at, ornare aliquam lorem. Sed in tortor ac lorem ultrices lacinia ut et leo. Quisque varius lorem a semper condimentum. Maecenas libero urna, viverra molestie arcu vitae, pretium finibus ipsum. Nam accumsan bibendum ullamcorper. Integer id lectus eu nisl porta posuere. Phasellus pretium pretium fringilla. Curabitur aliquet sed dolor a suscipit. Donec luctus massa id turpis ornare, in sodales nunc.",
     services: [
@@ -33,7 +33,7 @@ const hotelsData = [
 {//hotel 2 https://goo.gl/maps/SXjtNxER96798eH28
     name:"Hotel Flamingo Cancun Resort",
     rating:5,
-    local_iso: "MXSVC",
+    local_iso: "MXFCR",
     country: "625386cc99eaba0008031f01",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et ex id est ultricies tristique. Pellentesque placerat risus elementum placerat vehicula. Quisque placerat ornare urna, a porttitor ipsum aliquet sit amet. Proin orci tellus, ultricies id pellentesque sit amet, tincidunt id odio. Praesent dolor mi, facilisis ut hendrerit eget, blandit quis dui. Cras viverra ullamcorper ante, quis laoreet urna viverra sed. In vel mollis est. Nullam vehicula et mauris quis lacinia.\nQuisque volutpat orci elementum massa ultrices porttitor. Mauris pulvinar fringilla nulla non iaculis. Proin neque lacus, sollicitudin et est at, ornare aliquam lorem. Sed in tortor ac lorem ultrices lacinia ut et leo. Quisque varius lorem a semper condimentum. Maecenas libero urna, viverra molestie arcu vitae, pretium finibus ipsum. Nam accumsan bibendum ullamcorper. Integer id lectus eu nisl porta posuere. Phasellus pretium pretium fringilla. Curabitur aliquet sed dolor a suscipit. Donec luctus massa id turpis ornare, in sodales nunc.",
@@ -64,7 +64,7 @@ const hotelsData = [
 
     name:"Andaz Mayakoba Riviera Maya",
     rating:4,
-    local_iso: "MXNYD",
+    local_iso: "MXAMR",
     country: "625386cc99eaba0008031f01",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam orci ante, vel varius erat condimentum eget. Nam convallis, neque quis congue porttitor, felis mauris pulvinar nisi, vel suscipit eros sapien et tellus. Vivamus id orci purus. Proin scelerisque mi sed libero euismod, sed pretium urna tempus. Integer consequat ex non elit egestas hendrerit. Integer tincidunt nibh sem, non vulputate nunc rhoncus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer a ante id neque lobortis fermentum. Maecenas nec consequat risus.\nMorbi tempus dapibus enim id porttitor. Maecenas sed tristique risus. Pellentesque eget justo ipsum. Nunc volutpat porttitor neque, id pellentesque lorem commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut consequat lacus eu tortor volutpat, et auctor ex tristique. Aenean cursus, metus a malesuada tristique, sem turpis lobortis justo, at tristique nunc eros et ex. Curabitur id mi non mi efficitur euismod quis at odio. Proin iaculis, mi ac ultricies tempor, tortor velit pulvinar mi, quis.",
@@ -94,8 +94,8 @@ const hotelsData = [
 {//hotel 4 https://goo.gl/maps/q5EJSsvyabLdygaQ9
 
     name:"The Westin Resort Guam",
-    rating:5,
-    local_iso: "MXSVC",
+    rating:3,
+    local_iso: "USWRG",
     country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam orci ante, vel varius erat condimentum eget. Nam convallis, neque quis congue porttitor, felis mauris pulvinar nisi, vel suscipit eros sapien et tellus. Vivamus id orci purus. Proin scelerisque mi sed libero euismod, sed pretium urna tempus. Integer consequat ex non elit egestas hendrerit. Integer tincidunt nibh sem, non vulputate nunc rhoncus ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer a ante id neque lobortis fermentum. Maecenas nec consequat risus.\nMorbi tempus dapibus enim id porttitor. Maecenas sed tristique risus. Pellentesque eget justo ipsum. Nunc volutpat porttitor neque, id pellentesque lorem commodo at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut consequat lacus eu tortor volutpat, et auctor ex tristique. Aenean cursus, metus a malesuada tristique, sem turpis lobortis justo, at tristique nunc eros et ex. Curabitur id mi non mi efficitur euismod quis at odio. Proin iaculis, mi ac ultricies tempor, tortor velit pulvinar mi, quis.",
@@ -125,8 +125,8 @@ const hotelsData = [
 {//hotel 5 https://goo.gl/maps/9Z2V7E4Cx4kVhDRP7
 
     name:"Veraclub Sunset Beach",
-    rating:3,
-    local_iso: "MXNYD",
+    rating:4,
+    local_iso: "USVSB",
     country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices nunc quis mi mollis mollis. Aenean vehicula arcu quis maximus luctus. Cras id quam sapien. Sed auctor ac diam eget maximus. Donec justo elit, placerat ac mollis a, euismod non libero. Mauris ut ante vitae augue mattis consequat quis sit amet sem. Nunc quis erat nec nisi laoreet ornare ac laoreet lorem. Aliquam bibendum, eros at suscipit semper, lorem diam scelerisque lacus, vitae finibus turpis mauris eu lorem. Morbi id purus non arcu finibus pulvinar ut ac est. Vestibulum leo elit, accumsan ornare vestibulum id, suscipit in nunc.\nMorbi id augue nulla. Cras facilisis vulputate accumsan. Donec gravida varius quam ac pharetra. Vestibulum libero orci, ultricies a erat vitae, luctus maximus quam. Nam ut egestas ipsum. Sed gravida purus lacinia, vulputate tellus at, tincidunt massa. Suspendisse potenti. Ut aliquet pretium.",
@@ -156,8 +156,8 @@ const hotelsData = [
 {//Categoria 2 comienza hotel 6 https://goo.gl/maps/gN7cb3p8KCtNaiGv7
 
     name:"Marina Bay",
-    rating:3,
-    local_iso: "MXNYD",
+    rating:5,
+    local_iso: "SGNYD",
     country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices nunc quis mi mollis mollis. Aenean vehicula arcu quis maximus luctus. Cras id quam sapien. Sed auctor ac diam eget maximus. Donec justo elit, placerat ac mollis a, euismod non libero. Mauris ut ante vitae augue mattis consequat quis sit amet sem. Nunc quis erat nec nisi laoreet ornare ac laoreet lorem. Aliquam bibendum, eros at suscipit semper, lorem diam scelerisque lacus, vitae finibus turpis mauris eu lorem. Morbi id purus non arcu finibus pulvinar ut ac est. Vestibulum leo elit, accumsan ornare vestibulum id, suscipit in nunc.\nMorbi id augue nulla. Cras facilisis vulputate accumsan. Donec gravida varius quam ac pharetra. Vestibulum libero orci, ultricies a erat vitae, luctus maximus quam. Nam ut egestas ipsum. Sed gravida purus lacinia, vulputate tellus at, tincidunt massa. Suspendisse potenti. Ut aliquet pretium.",
@@ -219,8 +219,8 @@ const hotelsData = [
 {//hotel 8 https://goo.gl/maps/kXc6y6Ca6sP5af417
 
     name:"Hotel de Convenciones y Resort Sheraton Doha",
-    rating:3,
-    local_iso: "MXNYD",
+    rating:4,
+    local_iso: "SGRSD",
     country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium dolor eget faucibus vehicula. Vivamus sed mauris laoreet, consectetur nunc eu, scelerisque urna. Sed condimentum aliquet massa interdum elementum. Vivamus varius orci eu libero facilisis luctus. Phasellus ante ex, convallis vitae risus a, sagittis aliquet neque. Suspendisse vel fermentum neque. Nam erat lectus, maximus eget interdum a, vehicula sed risus. Donec elementum, enim in gravida commodo, magna leo lobortis neque, vitae dictum ligula enim in velit. Nullam velit libero, suscipit vitae pretium a, scelerisque ac enim. Proin pharetra dolor sit amet arcu mollis, malesuada semper velit posuere. Curabitur varius ex non sodales imperdiet. Donec ultrices sem quis libero ullamcorper posuere. Sed sit amet finibus est, eu efficitur mi. Duis vel rutrum metus. Morbi arcu dolor, cursus et consectetur sit amet, imperdiet vitae nulla.\nUt luctus, mi in ullamcorper pretium, elit magna cursus nibh, quis placerat nulla nulla nec urna. Nullam fringilla at felis ac fringilla. Quisque sed orci sit amet felis gravida consequat vel eget nisl. Nunc accumsan fringilla elit id dapibus. Nullam ut justo fermentum, egestas sapien a, viverra justo. Donec vehicula, mauris rhoncus vehicula pulvinar, nisl orci finibus ipsum, finibus vehicula sem lacus a odio. Vestibulum ante ipsum.",
@@ -251,7 +251,7 @@ const hotelsData = [
 
     name:"Althoff Seehotel Überfahrt",
     rating:3,
-    local_iso: "MXNYD",
+    local_iso: "SGASÜ",
     country: "625386cc99eaba0008031f04",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, nunc quis vulputate consectetur, ante risus volutpat nibh, ut ultrices nisl felis nec est. Morbi condimentum accumsan neque, vel scelerisque tellus. Donec id erat pharetra, elementum leo at, rhoncus mi. Phasellus ante nisl, ultricies sed lacus non, sollicitudin aliquet neque. Vestibulum quis semper massa. Suspendisse et viverra velit. Duis eu nibh auctor, rutrum eros non, finibus nunc. Etiam velit erat, sollicitudin vitae tortor non, pharetra maximus risus. Pellentesque et nisl congue, convallis ex non, molestie odio. Nulla consectetur elit enim, quis tristique nisi lobortis eu. Maecenas a libero sed augue rutrum sagittis ac ut felis. Pellentesque sit amet sem sagittis, elementum lacus et, laoreet dolor. Pellentesque ut felis a ipsum vehicula hendrerit quis pretium sapien. Duis tempor turpis id diam fermentum lacinia.\nAenean porta eros dolor, ut mattis quam sagittis sit amet. Sed ac iaculis nibh. Phasellus libero eros, imperdiet id fermentum id, consequat quis odio. Donec nec diam ullamcorper, auctor ipsum eu, pharetra purus. Maecenas posuere lorem blandit, faucibus erat accumsan, consequat eros. Duis placerat dictum tortor a interdum.",
@@ -281,8 +281,8 @@ const hotelsData = [
 {//hotel 10 https://goo.gl/maps/KatiwDG6A7Ai4gVL6
 
     name:"Burj Al Arab",
-    rating:3,
-    local_iso: "MXNYD",
+    rating:5,
+    local_iso: "ARBAA",
     country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia, nunc quis vulputate consectetur, ante risus volutpat nibh, ut ultrices nisl felis nec est. Morbi condimentum accumsan neque, vel scelerisque tellus. Donec id erat pharetra, elementum leo at, rhoncus mi. Phasellus ante nisl, ultricies sed lacus non, sollicitudin aliquet neque. Vestibulum quis semper massa. Suspendisse et viverra velit. Duis eu nibh auctor, rutrum eros non, finibus nunc. Etiam velit erat, sollicitudin vitae tortor non, pharetra maximus risus. Pellentesque et nisl congue, convallis ex non, molestie odio. Nulla consectetur elit enim, quis tristique nisi lobortis eu. Maecenas a libero sed augue rutrum sagittis ac ut felis. Pellentesque sit amet sem sagittis, elementum lacus et, laoreet dolor. Pellentesque ut felis a ipsum vehicula hendrerit quis pretium sapien. Duis tempor turpis id diam fermentum lacinia.\nAenean porta eros dolor, ut mattis quam sagittis sit amet. Sed ac iaculis nibh. Phasellus libero eros, imperdiet id fermentum id, consequat quis odio. Donec nec diam ullamcorper, auctor ipsum eu, pharetra purus. Maecenas posuere lorem blandit, faucibus erat accumsan, consequat eros. Duis placerat dictum tortor a interdum.",
@@ -312,7 +312,7 @@ const hotelsData = [
 {//Categoria 3 comienza hotel 11 https://goo.gl/maps/YDoUGkDRvKX3QMrU7
 
     name:"Puente Colgante Boutique Hotel",
-    rating:3,
+    rating:4,
     local_iso: "MXNYD",
     country: "625386cc99eaba0008031f02",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -334,7 +334,7 @@ const hotelsData = [
 
     name:"Artesana Luxury Villa",
     rating:3,
-    local_iso: "MXNYD",
+    local_iso: "ARALV",
     country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor tortor at turpis malesuada dapibus. Duis dapibus nibh a consequat ultricies. Aenean felis nulla, suscipit quis nulla eget, interdum luctus sapien. Donec pulvinar, lacus eu efficitur viverra, ante risus semper dolor, nec mattis enim lacus sed risus. Ut imperdiet vel mauris vel molestie. Morbi eu sapien nec erat blandit maximus ac eu risus. Nulla posuere sollicitudin dui sed auctor. Nam tristique, orci in accumsan mattis, sapien enim efficitur erat, vitae congue libero nunc a mauris. Nullam tempor tempor tortor nec tincidunt. Nunc ut nisi malesuada, tincidunt nunc eget, condimentum dolor. Nulla efficitur purus vel rutrum interdum. Etiam id sollicitudin metus. Sed sit amet nunc vitae dui efficitur faucibus. Donec a.",
@@ -362,7 +362,7 @@ const hotelsData = [
 {//hotel 13 https://goo.gl/maps/SpyA8pzwrCevPwycA
 
     name:"Hotel Colonial Cancun",
-    rating:3,
+    rating:1,
     local_iso: "MXNYD",
     country: "625386cc99eaba0008031f01",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -392,7 +392,7 @@ const hotelsData = [
 
     name:"Círculo Mexicano",
     rating:3,
-    local_iso: "MXNYD",
+    local_iso: "MXCM1",
     country: "625386cc99eaba0008031f01",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu facilisis est. Nunc eu quam eu erat laoreet ullamcorper. Sed sagittis vestibulum purus non egestas. Nullam tortor neque, semper eget sem eu, vulputate aliquet eros. Nullam et purus vitae sapien sodales mollis. Cras maximus vitae erat id mattis. Mauris tellus leo, viverra vitae dui a, scelerisque gravida urna. Vestibulum pulvinar vulputate quam eu porta.\nProin aliquam congue ex. Morbi mollis suscipit quam nec hendrerit. Duis viverra ex porttitor orci convallis ornare. In elementum enim non venenatis pellentesque. Proin sed ante id ante varius commodo a ac ligula. Mauris fringilla elit ut lorem hendrerit semper. Fusce lobortis cursus enim.\nMauris eleifend ex sit amet erat fermentum, sagittis lacinia mauris semper. Phasellus tempor diam nisi, in faucibus nibh vulputate vitae. Vestibulum fringilla velit at egestas pulvinar. Praesent eu fermentum tortor. Aliquam tincidunt lectus vel nulla pellentesque, ut tristique erat maximus. Integer in feugiat orci. Aliquam sed rutrum sem. Nullam placerat at odio sit amet porta. Mauris fermentum purus vitae mi laoreet varius. In pretium, ex sit amet dapibus lacinia, dolor massa facilisis lacus, nec facilisis libero elit non lacus. Nullam interdum, lorem.",
@@ -421,7 +421,7 @@ const hotelsData = [
 
     name:"Hotel Quintino",
     rating:3,
-    local_iso: "MXNYD",
+    local_iso: "ARHQ1",
     country: "625386cc99eaba0008031f03",
     short_desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu facilisis est. Nunc eu quam eu erat laoreet ullamcorper. Sed sagittis vestibulum purus non egestas. Nullam tortor neque, semper eget sem eu, vulputate aliquet eros. Nullam et purus vitae sapien sodales mollis. Cras maximus vitae erat id mattis. Mauris tellus leo, viverra vitae dui a, scelerisque gravida urna. Vestibulum pulvinar vulputate quam eu porta.\nProin aliquam congue ex. Morbi mollis suscipit quam nec hendrerit. Duis viverra ex porttitor orci convallis ornare. In elementum enim non venenatis pellentesque. Proin sed ante id ante varius commodo a ac ligula. Mauris fringilla elit ut lorem hendrerit semper. Fusce lobortis cursus enim.\nMauris eleifend ex sit amet erat fermentum, sagittis lacinia mauris semper. Phasellus tempor diam nisi, in faucibus nibh vulputate vitae. Vestibulum fringilla velit at egestas pulvinar. Praesent eu fermentum tortor. Aliquam tincidunt lectus vel nulla pellentesque, ut tristique erat maximus. Integer in feugiat orci. Aliquam sed rutrum sem. Nullam placerat at odio sit amet porta. Mauris fermentum purus vitae mi laoreet varius. In pretium, ex sit amet dapibus lacinia, dolor massa facilisis lacus, nec facilisis libero elit non lacus. Nullam interdum, lorem.",
