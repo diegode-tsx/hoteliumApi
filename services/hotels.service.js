@@ -34,7 +34,8 @@ class HotelsService {
             options: { sort: { 'price': 1 } }
          },
          {
-            path: 'services'
+            path: 'services',
+            select: '-_id'
          }
       ]
       const hotel = await Hotel.findById(id)
