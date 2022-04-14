@@ -3,6 +3,7 @@ const express = require('express');
 const ReservationService = require('../services/reservations.service');
 const validatorHandler = require('./../middlewares/validator.handler');
 const { createReservationSchema } = require('./../schemas/reservation.schema');
+const sendMailOp = require('../libs/nodemailer');
 
 const router = express.Router();
 const service = new ReservationService();
@@ -17,6 +18,7 @@ router.post('/',
       try {
          const data = req.body
          const newReservation = await service.create(data);
+         sendMailOp(data);
          res.json(newReservation);
       } catch (error) {
          next(error);
