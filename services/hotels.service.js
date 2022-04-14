@@ -12,12 +12,12 @@ class HotelsService {
       const query = [
          {
             path: 'rooms',
-            select: 'room_type price tag -_id',
+            select: 'room_type price -_id',
             options: { sort: { 'price': 1 } }
          }
       ]
       const hotels = await Hotel.find()
-         .select('name rating short_desc rooms')
+         .select('name rating short_desc rooms images tag')
          .populate(query);
 
       if (hotels.length === 0) {
@@ -39,7 +39,7 @@ class HotelsService {
          }
       ]
       const hotel = await Hotel.findById(id)
-         .select('name description services tag rooms location local_iso')
+         .select('name description services tag rooms location local_iso images')
          .populate(query);
 
       if (!hotel) {
@@ -69,7 +69,7 @@ class HotelsService {
    }
 
    async findByCountry(name) {
-      const idCountry = await Country.find(name).select('_id');
+      const idCountry = await this.getIdCountry(name);
 
       const query = [
          {
@@ -89,10 +89,8 @@ class HotelsService {
       return hotels;
    }
 
-   async create(data) {
-      const newHotel = await Hotel.insertMany(data);
-      return newHotel;
-      //return newHotel;
+   async getIdCountry(name) {
+      return await Country.find(name).select('_id');
    }
 }
 
