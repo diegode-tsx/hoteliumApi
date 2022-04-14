@@ -17,7 +17,7 @@ class HotelsService {
          }
       ]
       const hotels = await Hotel.find()
-         .select('name rating short_desc rooms tag')
+         .select('name rating short_desc rooms images tag')
          .populate(query);
 
       if (hotels.length === 0) {
@@ -69,7 +69,7 @@ class HotelsService {
    }
 
    async findByCountry(name) {
-      const idCountry = await Country.find(name).select('_id');
+      const idCountry = await this.getIdCountry(name);
 
       const query = [
          {
@@ -89,10 +89,8 @@ class HotelsService {
       return hotels;
    }
 
-   async create(data) {
-      const newHotel = await Hotel.insertMany(data);
-      return newHotel;
-      //return newHotel;
+   async getIdCountry(name) {
+      return await Country.find(name).select('_id');
    }
 }
 

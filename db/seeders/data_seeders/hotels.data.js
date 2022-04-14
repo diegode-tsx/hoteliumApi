@@ -1,5 +1,4 @@
 const hotelsData = [
-
 {//categoria 1 comienza hotel 1 https://goo.gl/maps/tzTkiB7DWc4Vc7Bf8
     name: "Secrets The Vine",
     rating:5,
