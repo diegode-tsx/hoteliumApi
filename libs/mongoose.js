@@ -4,16 +4,20 @@ const config = require('../config/config');
 
 const USER = encodeURI(config.dbUser);
 const PASSWORD = encodeURI(config.dbPassword);
-const URI = `mongodb://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}/${config.dbName}?authSource=admin`;
+//const URI = `mongodb://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}/${config.dbName}?authSource=admin`;
+const URI = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}/${config.dbName}?retryWrites=true&w=majority`;
 
-mongoose.connect(URI);
+const connectDB = async () => {
+   await mongoose.connect(URI);
+};
+connectDB();
 
 mongoose.connection.on('connected', function () {
    console.log('Conectado a la base de datos: ' + URI)
 });
 
 mongoose.connection.on('error', function (err) {
-   console.log('Error al conextar a la base de datos: ' + err)
+   console.log('Error al conectar a la base de datos: ' + err)
 });
 
 mongoose.connection.on('disconnected', function () {
@@ -26,3 +30,5 @@ process.on('SIGINT', function () {
       process.exit(0)
    })
 });
+
+module.exports = connectDB;
