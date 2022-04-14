@@ -11,21 +11,21 @@ class ReservationsService {
 
    async create(data) {
       const rooms = data.rooms;
-      rooms.forEach(async id => {
+      for(const id of rooms) {
          const room = await Room.findById(id).select('amount -_id');
-         if (room.amount === 0) {
-            throw boom.badRequest('room requested is not available');
+         if (room.amount <= 0) {
+            throw boom.badRequest('room is not available');
          }
          const update = { $inc: { amount: -1 } };
-         await Room.findByIdAndUpdate(id, update);
-      });
+         await this.updateRoomById(id, update);
+      }
 
       const newReservation = await Reservation.create(data);
       return newReservation;
    }
 
-   async update(data) {
-
+   async updateRoomById(id, update) {
+      await Room.findByIdAndUpdate(id, update);
    }
 }
 

@@ -11,24 +11,16 @@ router.get('/', async (req, res, next) => {
 
 });
 
-<<<<<<< HEAD
-router.post('/', async (req, res, next) => {
-   try {
-      const data = req.body
-      const newReservation = await service.create(data);
-      res.json(newReservation);
-   } catch (error) {
-      next(error);
-   }
-});
-=======
 router.post('/',
    validatorHandler(createReservationSchema),
    async (req, res, next) => {
-      const reservation = req.body
-      const newReservation = await service.create(reservation);
-      res.json(newReservation);
+      try {
+         const data = req.body
+         const newReservation = await service.create(data);
+         res.json(newReservation);
+      } catch (error) {
+         next(error);
+      }
    });
->>>>>>> api
 
 module.exports = router;
