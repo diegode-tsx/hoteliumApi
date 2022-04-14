@@ -17,7 +17,7 @@ class HotelsService {
          }
       ]
       const hotels = await Hotel.find()
-         .select('name rating short_desc rooms tag')
+         .select('name rating short_desc rooms images tag')
          .populate(query);
 
       if (hotels.length === 0) {
