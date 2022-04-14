@@ -1,7 +1,10 @@
-const { required } = require('joi');
 const Joi = require('joi');
 
-const arrival_date = Joi.date().min('now');
+const today = new Date();
+today.setUTCHours(0, 0, 0, 0);
+const currentDate = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+const arrival_date = Joi.date().min(currentDate);
 const departure_date = Joi.date().greater(Joi.ref('arrival_date'));
 const num_guests = Joi.number().integer().max(10).min(1);
 const num_rooms = Joi.number().integer().max(10).min(1);

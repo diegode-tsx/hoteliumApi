@@ -18,7 +18,7 @@ router.post('/',
       try {
          const data = req.body
          const newReservation = await service.create(data);
-         sendMailOp(data);
+         await sendMailOp(data);
          res.json(newReservation);
       } catch (error) {
          next(error);
