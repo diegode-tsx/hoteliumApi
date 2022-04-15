@@ -1,10 +1,16 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+
+const config = require('../config/config');
+
+const USER = encodeURI(config.emailUser);
+const PASS = encodeURI(config.emailPass);
+
 const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'hoteliumteam@gmail.com',
-            pass: 'roothotelium1'
+            user: USER,
+            pass: PASS
         }
     });
 
