@@ -58,7 +58,7 @@ class HotelsService {
          }
       ]
       const hotels = await Hotel.find(tag)
-         .select('name rating short_desc rooms')
+         .select('name rating short_desc rooms images tag')
          .populate(query);
 
       if (hotels.length === 0) {
@@ -79,7 +79,7 @@ class HotelsService {
          }
       ]
       const hotels = await Hotel.find({country: idCountry})
-         .select('name rating short_desc rooms country')
+         .select('name rating short_desc rooms country images tag')
          .populate(query);
 
       if (hotels.length === 0) {
