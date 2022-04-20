@@ -18,6 +18,10 @@ app.use(logErrors);
 app.use(boomErrorHandler);
 app.use(errorHandler);
 
-app.listen(port, host, () => {
+process.on('uncaughtException', function(err) {
+   console.log('Caught exception: ' + err);
+});
+
+app.listen(port, () => {
    console.log('Application started successfully');
 })
