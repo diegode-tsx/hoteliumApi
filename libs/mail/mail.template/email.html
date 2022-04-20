@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <style>
+         @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@500;700&display=swap");
+
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+
+         .title-main {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+         }
+
+         .title-secondary {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+         }
+
+         .txt-main {
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+         }
+
+         .txt-secondary {
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+         }
+
+         img {
+            vertical-align: top;
+         }
+
+         header {
+            text-align: center;
+            padding: 25px 10px;
+            background: #1319bf;
+            color: #fff;
+            border-radius: 10px;
+         }
+
+         .main {
+            text-align: center;
+         }
+
+         .main > p {
+            margin: 30px;
+            color: #1319bf;
+         }
+
+         .card {
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 30px 100px;
+            display: inline-block;
+         }
+
+         .img-container {
+            text-align: center;
+            margin-bottom: 50px;
+         }
+
+         .img-container img {
+            width: 120px;
+            vertical-align: top;
+         }
+
+         .content {
+            display: inline-block;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #1319bf;
+         }
+
+         .dates-container {
+            text-align: center;
+            margin-bottom: 20px;
+         }
+
+         .date {
+            display: inline-block;
+            margin: 0 25px;
+            color: #000;
+         }
+
+         .date-output {
+            display: flex;
+            margin-top: 10px;
+            color: #1319bf;
+         }
+
+         .date-output img {
+            width: 20px;
+            margin-right: 5px;
+         }
+
+         .code-container {
+            color: #000;
+         }
+
+         .code {
+            margin-top: 10px;
+            padding: 20px 25px;
+            background: rgba(19, 25, 191, 0.4);
+            border-radius: 5px;
+            color: #1319bf;
+            display: inline-block;
+         }
+
+         .footer {
+            display: table;
+            margin-top: 20px;
+            color: #000;
+         }
+
+         .footer > div {
+            display: inline-block;
+         }
+
+         .icon-text {
+            display: table;
+         }
+
+         .icon-text p {
+            display: table-cell;
+            vertical-align: middle;
+         }
+
+         .footer img {
+            width: 25px;
+            margin-right: 5px;
+         }
+
+         .first {
+            margin-bottom: 5px;
+         }
+
+         .price {
+            display: table-cell;
+            vertical-align: top;
+            text-align: left;
+            margin-left: 220px;
+         }
+      </style>
+      <title>Hotelium support</title>
+   </head>
+   <body>
+      <header>
+         <p class="title-main">Hola {{name}}</p>
+      </header>
+
+      <div class="main">
+         <p class="title-secondary">Estos son los datos de tu reservación</p>
+
+         <div class="card">
+            <div class="img-container">
+               <img src="https://i.imgur.com/bkcRO4N.png" alt="" />
+            </div>
+
+            <div class="content">
+               <div class="dates-container">
+                  <div class="date">
+                     <p class="txt-main">Fecha de llegada</p>
+                     <div class="date-output">
+                        <img src="https://i.imgur.com/OryH3OK.png" alt="" />
+                        <p class="txt-secondary">2022-04-15</p>
+                     </div>
+                  </div>
+
+                  <div class="date">
+                     <p class="txt-main">Fecha de salida</p>
+                     <div class="date-output">
+                        <img src="https://i.imgur.com/OryH3OK.png" alt="" />
+                        <p class="txt-secondary">2022-04-16</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="code-container">
+                  <p class="txt-main">Código de reservación</p>
+                  <p class="code txt-secondary">MXSVCJ0804XXXX</p>
+               </div>
+            </div>
+
+            <div class="footer">
+               <div class="info">
+                  <div class="icon-text">
+                     <img
+                        src="https://i.imgur.com/fhpXnKX.png"
+                        alt=""
+                        class="first"
+                     />
+                     <p class="txt-secondary">6</p>
+                  </div>
+
+                  <div class="icon-text">
+                     <img src="https://i.imgur.com/jK8Fw1W.png" alt="" />
+                     <p class="txt-secondary">2</p>
+                  </div>
+               </div>
+
+               <div class="price">
+                  <p class="txt-main" style="margin-bottom: 5px">
+                     Importe total
+                  </p>
+                  <p class="txt-secondary">$4500</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

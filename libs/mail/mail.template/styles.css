@@ -1,0 +1,140 @@
+/*Configuration*/
+:root {
+   --primary: #1319bf;
+   --black: #000;
+   --white: #fff;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+.title-main {
+   font-family: "Inter";
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 39px;
+}
+
+.title-secondary {
+   font-family: "Inter";
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+}
+
+.txt-main {
+   font-family: "Karla";
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.txt-secondary {
+   font-family: "Karla";
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+i {
+   font-size: 20px;
+   line-height: 20px;
+}
+
+/*Styles*/
+
+body {
+	color: var(--black);
+	padding: 30px 200px;
+}
+
+header {
+	text-align: center;
+	padding: 25px 10px;
+	background: var(--primary);
+	color: var(--white);
+	border-radius: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main>p {
+	color: var(--primary);
+	margin: 30px 0;
+}
+
+.card {
+	background: var(--white);
+	border-radius: 10px;
+	padding: 30px 100px;
+}
+
+.img-container{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.img-container img {
+	width: 120px;
+	vertical-align: top;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid var(--primary);
+}
+
+.dates-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.date-output {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 10px;
+	color: var(--primary);
+}
+
+.code-container {
+	text-align: center;
+}
+
+.code {
+	margin-top: 10px;
+	padding: 20px 25px;
+	background: rgba(19, 25, 191, 0.4);
+	border-radius: 5px;
+	color: var(--primary);
+}
+
+.footer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-text {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 10px;
+}
