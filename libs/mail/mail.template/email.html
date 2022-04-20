@@ -176,7 +176,7 @@
                      <p class="txt-main">Fecha de llegada</p>
                      <div class="date-output">
                         <img src="https://i.imgur.com/OryH3OK.png" alt="" />
-                        <p class="txt-secondary">2022-04-15</p>
+                        <p class="txt-secondary">{{arrivalDate}}</p>
                      </div>
                   </div>
 
@@ -184,14 +184,14 @@
                      <p class="txt-main">Fecha de salida</p>
                      <div class="date-output">
                         <img src="https://i.imgur.com/OryH3OK.png" alt="" />
-                        <p class="txt-secondary">2022-04-16</p>
+                        <p class="txt-secondary">{{departureDate}}</p>
                      </div>
                   </div>
                </div>
 
                <div class="code-container">
                   <p class="txt-main">Código de reservación</p>
-                  <p class="code txt-secondary">MXSVCJ0804XXXX</p>
+                  <p class="code txt-secondary">{{reservationCode}}</p>
                </div>
             </div>
 
@@ -203,12 +203,12 @@
                         alt=""
                         class="first"
                      />
-                     <p class="txt-secondary">6</p>
+                     <p class="txt-secondary">{{numGuests}}</p>
                   </div>
 
                   <div class="icon-text">
                      <img src="https://i.imgur.com/jK8Fw1W.png" alt="" />
-                     <p class="txt-secondary">2</p>
+                     <p class="txt-secondary">{{numRooms}}</p>
                   </div>
                </div>
 
@@ -216,7 +216,7 @@
                   <p class="txt-main" style="margin-bottom: 5px">
                      Importe total
                   </p>
-                  <p class="txt-secondary">$4500</p>
+                  <p class="txt-secondary">${{totalCost}}</p>
                </div>
             </div>
          </div>

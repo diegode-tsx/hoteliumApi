@@ -35,11 +35,17 @@ async function sendMailOp(mailData) {
       const reservationCode = mailData.reservation_code;
       const arrivalDate = mailData.arrival_date;
       const departureDate = mailData.departure_date;
+      const numGuests = mailData.num_guests;
+      const numRooms = mailData.num_rooms;
+      const totalCost = mailData.total_cost;
       const replacements = {
          name: name,
          reservationCode: reservationCode,
          arrivalDate: arrivalDate,
-         departureDate: departureDate
+         departureDate: departureDate,
+         numGuests: numGuests,
+         numRooms: numRooms,
+         totalCost: totalCost
       }
       const htmlToSend = template(replacements);
       const mailOptions = {
