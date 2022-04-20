@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const handlebars = require('handlebars');
 const fs = require('fs');
 
-const config = require('../config/config');
+const config = require('../../config/config');
 
 const USER = encodeURI(config.emailUser);
 const PASS = encodeURI(config.emailPass);
@@ -27,7 +27,7 @@ const transporter = nodemailer.createTransport({
 });
 
 async function sendMailOp(mailData) {
-   return await readHTMLFile(__dirname + '/prueba.html', async (err, html) => {
+   return await readHTMLFile(__dirname + '/mail.template/email.html', async (err, html) => {
       const template = handlebars.compile(html);
       console.log(mailData);
       const email = mailData.client.email;
@@ -35,11 +35,17 @@ async function sendMailOp(mailData) {
       const reservationCode = mailData.reservation_code;
       const arrivalDate = mailData.arrival_date;
       const departureDate = mailData.departure_date;
+      const numGuests = mailData.num_guests;
+      const numRooms = mailData.num_rooms;
+      const totalCost = mailData.total_cost;
       const replacements = {
          name: name,
          reservationCode: reservationCode,
          arrivalDate: arrivalDate,
-         departureDate: departureDate
+         departureDate: departureDate,
+         numGuests: numGuests,
+         numRooms: numRooms,
+         totalCost: totalCost
       }
       const htmlToSend = template(replacements);
       const mailOptions = {

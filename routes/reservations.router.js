@@ -3,7 +3,7 @@ const express = require('express');
 const ReservationService = require('../services/reservations.service');
 const validatorHandler = require('./../middlewares/validator.handler');
 const { createReservationSchema } = require('./../schemas/reservation.schema');
-const sendMailOp = require('../libs/nodemailer');
+const sendMailOp = require('../libs/mail/nodemailer');
 
 const router = express.Router();
 const service = new ReservationService();

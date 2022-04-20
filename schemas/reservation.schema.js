@@ -2,7 +2,7 @@ const Joi = require('joi');
 
 const today = new Date();
 today.setUTCHours(0, 0, 0, 0);
-const currentDate = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+const currentDate = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDay();
 
 const arrival_date = Joi.date().min(currentDate);
 const departure_date = Joi.date().greater(Joi.ref('arrival_date'));
